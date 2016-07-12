@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BootStrap Grid Layout Examples</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    /* Some custom styles to beautify this example */
+    
+    .demo-content {
+      padding: 15px;
+      font-size: 18px;
+      min-height: 300px;
+      background: #dbdfe5;
+    }
+    
+    .demo-content.bg-alt {
+      background: #abb1b8;
+    }
+  </style>
+</head>
+
+<body>
+  <!--
+
+    <!--Two rows--
+    <div class="container-responsive">
+      <div class="row">
+        <div class="col-sm-6 demo-content">
+          <h1>Content goes here.</h1>
+        </div>
+        <div class="col-sm-6 demo-content">
+          <h1> Content goes here.</h1>
+        </div>
+      </div>
+    </div>
+
+    <!--Two rows--
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 demo-content">
+          <h2>Content goes here.</h2>
+        </div>
+        <div class="col-sm-10 demo-content bg-alt">
+          <h1>Content goes here.</h1>
+        </div>
+      </div>
+    </div>
+    
+  -->
+
+  <!--Column wreaping-->
+  <div class="containe-fluid">
+    <div class="row">
+      <div class="col-sm-3 col-md-2 demo-content">
+        <h2>Content goes here.</h2>
+      </div>
+      <div class="col-sm-9 col-md-8 demo-content bg-alt">
+        <h1>Content goes here.</h1>
+      </div>
+      <div class="col-sm-12 col-md-2 demo-content">
+        <h1>Content goes here<small> Some other text</small></h1>
+       <p class="text-primary">This is some important text. Please reade caerfuly.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
